@@ -249,6 +249,7 @@ public class GuiRenderer {
     }
 
     public void texture(double x, double y, double width, double height, double rotation, Texture texture) {
+        if (texture == null) return;
         post(() -> {
             rTex.begin();
             rTex.texQuad(x, y, width, height, rotation, 0, 0, 1, 1, WHITE);

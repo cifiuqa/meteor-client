@@ -1,22 +1,17 @@
 {
   "schemaVersion": 1,
-  "name": "Meteor Client",
-  "id": "meteor-client",
+  "name": "AquaClient",
+  "id": "aquaclient",
   "version": "${version}",
-  "description": "Based utility mod.",
+  "description": "Aqua's epic skidded client",
   "authors": [
-    "MineGame159",
-    "squidoodly",
-    "seasnail"
+    "Aquific"
   ],
   "contact": {
-    "homepage": "https://meteorclient.com",
-    "issues": "https://github.com/MeteorDevelopment/meteor-client/issues",
-    "sources": "https://github.com/MeteorDevelopment/meteor-client",
-    "discord": "https://meteorclient.com/discord"
+    "discord": "https://discord.gg/3JgZcuyZUp"
   },
   "license": "GPL-3.0",
-  "icon": "assets/meteor-client/icon.png",
+  "icon": "assets/aquaclient/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
@@ -36,9 +31,9 @@
   ],
   "accessWidener": "meteor-client.accesswidener",
   "custom": {
-    "meteor-client:build_number": "${build_number}",
-    "meteor-client:color": "145,61,226",
-    "meteor-client:commit": "${commit}",
+    "aquaclient:build_number": "${build_number}",
+    "aquaclient:color": "0,255,255",
+    "aquaclient:commit": "${commit}",
     "modmenu": {
       "links": {
         "modmenu.discord": "https://meteorclient.com/discord"

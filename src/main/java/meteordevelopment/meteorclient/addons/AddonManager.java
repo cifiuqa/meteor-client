@@ -31,12 +31,12 @@ public class AddonManager {
 
                 @Override
                 public String getWebsite() {
-                    return "https://meteorclient.com";
+                    return "https://aquific.carrd.co/";
                 }
 
                 @Override
                 public GithubRepo getRepo() {
-                    return new GithubRepo("MeteorDevelopment", "meteor-client");
+                    return null;
                 }
 
                 @Override
